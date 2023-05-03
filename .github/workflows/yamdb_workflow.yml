@@ -60,7 +60,6 @@ jobs:
        
         script: |
           sudo docker pull olgaya28/api_yamdb
-          
           sudo docker-compose stop
           sudo docker-compose rm -f web
           sudo docker-compose up -d --build
