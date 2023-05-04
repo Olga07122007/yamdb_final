@@ -61,6 +61,7 @@ jobs:
           script: |
             sudo docker pull olgaya28/api_yamdb:latest
             
+            
             sudo docker-compose stop
             sudo docker-compose rm web
             
